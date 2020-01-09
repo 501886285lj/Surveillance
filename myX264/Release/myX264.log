@@ -1,0 +1,131 @@
+﻿生成启动时间为 2020/1/9 16:51:10。
+     1>项目“C:\Users\liang\Desktop\myX264 - 副本\myX264\myX264.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\myX264.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\jrtplib\include\rtpsources.h(371): warning C4251: “jrtplib::RTPSources::sourcelist”: class“jrtplib::RTPKeyHashTable<Key,Element,GetIndex,hashsize>”需要有 dll 接口由 class“jrtplib::RTPSources”的客户端使用
+                 with
+                 [
+                     Key=const uint32_t,
+                     Element=jrtplib::RTPInternalSourceData *,
+                     GetIndex=jrtplib::RTPSources_GetHashIndex,
+                     hashsize=8317
+                 ]
+     1>d:\jrtplib\include\rtpcollisionlist.h(89): warning C4251: “jrtplib::RTPCollisionList::addresslist”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPCollisionList”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPCollisionList::AddressAndTime
+                 ]
+     1>d:\jrtplib\include\rtcpsdesinfo.h(189): warning C4251: “jrtplib::RTCPSDESInfo::nonprivateitems”: class“jrtplib::RTCPSDESInfo::SDESItem”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 d:\jrtplib\include\rtcpsdesinfo.h(141) : 参见“jrtplib::RTCPSDESInfo::SDESItem”的声明
+     1>d:\jrtplib\include\rtcpsdesinfo.h(212): warning C4251: “jrtplib::RTCPSDESInfo::privitems”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPSDESInfo::SDESPrivateItem *
+                 ]
+     1>d:\jrtplib\include\rtcpsdesinfo.h(213): warning C4251: “jrtplib::RTCPSDESInfo::curitem”: class“std::_List_const_iterator<_Mylist>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 with
+                 [
+                     _Mylist=std::_List_val<jrtplib::RTCPSDESInfo::SDESPrivateItem *,std::allocator<jrtplib::RTCPSDESInfo::SDESPrivateItem *>>
+                 ]
+     1>d:\jrtplib\include\rtcppacketbuilder.h(217): warning C4251: “jrtplib::RTCPPacketBuilder::ownsdesinfo”: class“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”需要有 dll 接口由 class“jrtplib::RTCPPacketBuilder”的客户端使用
+                 d:\jrtplib\include\rtcppacketbuilder.h(196) : 参见“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”的声明
+     1>d:\jrtplib\include\rtcpcompoundpacket.h(104): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppacklist”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPPacket *
+                 ]
+     1>d:\jrtplib\include\rtcpcompoundpacket.h(105): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppackit”: class“std::_List_const_iterator<_Mylist>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+                 with
+                 [
+                     _Mylist=std::_List_val<jrtplib::RTCPPacket *,std::allocator<jrtplib::RTCPPacket *>>
+                 ]
+     1>d:\jrtplib\include\rtcpcompoundpacketbuilder.h(380): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::report”: class“jrtplib::RTCPCompoundPacketBuilder::Report”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 d:\jrtplib\include\rtcpcompoundpacketbuilder.h(150) : 参见“jrtplib::RTCPCompoundPacketBuilder::Report”的声明
+     1>d:\jrtplib\include\rtcpcompoundpacketbuilder.h(381): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::sdes”: class“jrtplib::RTCPCompoundPacketBuilder::SDES”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 d:\jrtplib\include\rtcpcompoundpacketbuilder.h(271) : 参见“jrtplib::RTCPCompoundPacketBuilder::SDES”的声明
+     1>d:\jrtplib\include\rtcpcompoundpacketbuilder.h(383): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::byepackets”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>d:\jrtplib\include\rtcpcompoundpacketbuilder.h(386): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::apppackets”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>D:\jrtplib\include\rtpsession.h(641): warning C4251: “jrtplib::RTPSession::byepackets”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPSession”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacket *
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(173): warning C4251: “jrtplib::RTPUDPv4TransmissionParams::localIPs”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionParams”的客户端使用
+                 with
+                 [
+                     _Ty=uint32_t
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(231): warning C4251: “jrtplib::RTPUDPv4TransmissionInfo::localIPlist”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionInfo”的客户端使用
+                 with
+                 [
+                     _Ty=uint32_t
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(323): warning C4251: “jrtplib::RTPUDPv4Transmitter::localIPs”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=uint32_t
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(331): warning C4251: “jrtplib::RTPUDPv4Transmitter::destinations”: class“jrtplib::RTPHashTable<Element,GetIndex,hashsize>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     Element=const jrtplib::RTPIPv4Destination,
+                     GetIndex=jrtplib::RTPUDPv4Trans_GetHashIndex_IPv4Dest,
+                     hashsize=8317
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(333): warning C4251: “jrtplib::RTPUDPv4Transmitter::multicastgroups”: class“jrtplib::RTPHashTable<Element,GetIndex,hashsize>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     Element=const uint32_t,
+                     GetIndex=jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,
+                     hashsize=8317
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(335): warning C4251: “jrtplib::RTPUDPv4Transmitter::rawpacketlist”: class“std::list<_Ty>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPRawPacket *
+                 ]
+     1>D:\jrtplib\include\rtpudpv4transmitter.h(349): warning C4251: “jrtplib::RTPUDPv4Transmitter::acceptignoreinfo”: class“jrtplib::RTPKeyHashTable<Key,Element,GetIndex,hashsize>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     Key=const uint32_t,
+                     Element=jrtplib::RTPUDPv4Transmitter::PortInfo *,
+                     GetIndex=jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,
+                     hashsize=8317
+                 ]
+     1>D:\jrtplib\include\rtpsessionparams.h(249): warning C4251: “jrtplib::RTPSessionParams::cname”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“jrtplib::RTPSessionParams”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+       Link:
+         d:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\liang\Desktop\myX264 - 副本\Release\myX264.exe" /INCREMENTAL:NO /NOLOGO libx264.lib jrtplib.lib jthread.lib ws2_32.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_ocl2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_superres2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\myX264.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\liang\Desktop\myX264 - 副本\Release\myX264.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\liang\Desktop\myX264 - 副本\Release\myX264.lib" /MACHINE:X86 Release\Buff.obj
+         Release\FrameBuff.obj
+         Release\Fu.obj
+         Release\main.obj
+         Release\NaluBuff.obj
+         正在生成代码
+         已完成代码的生成
+         myX264.vcxproj -> C:\Users\liang\Desktop\myX264 - 副本\Release\myX264.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\liang\Desktop\myX264 - 副本\Release\myX264.exe;#1" /manifest Release\myX264.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\myX264.unsuccessfulbuild”。
+         正在对“Release\myX264.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\liang\Desktop\myX264 - 副本\myX264\myX264.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.39
